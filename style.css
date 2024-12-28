@@ -1,0 +1,484 @@
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    /* gap: 5px; */
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.left {
+    width: 22vw;
+    max-width: 22%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+    position: fixed;
+    left: 5px;
+}
+
+.right {
+    max-width: 78vw;
+    max-width: 78%;
+    position: relative;
+    left: 22vw;
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(0, 0, 0);
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(105, 104, 104, 0.678);
+}
+
+.leftup ul li {
+    list-style: none;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+#search{
+    color: lightgray;
+}
+#search:hover{
+    color: white;
+    transition: ease-in-out;
+    transition-duration: 500ms;
+}
+.logo{
+    cursor: pointer;
+}
+.leftup img {
+    filter: invert(1);
+}
+
+.leftup,
+.leftdown {
+    background-color: rgba(37, 37, 37, 0.603);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.ld1 img {
+    filter: invert(1);
+}
+
+.ld1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.library {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    gap: 1rem;
+    color: lightgray;
+}
+.library:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.leftdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.plus {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus:hover{
+    background-color: rgb(36, 36, 36);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 0.5px solid rgba(0, 0, 0, 0);
+}
+
+.ld2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: 15vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.ld2::-webkit-scrollbar {
+    background-color: rgba(175, 57, 57, 0);
+    width: 15px;
+}
+
+.ld2::-webkit-scrollbar-thumb {
+    background-color: rgba(105, 104, 104, 0.678);
+}
+
+.lc1,
+.lc2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(46, 46, 46, 0.603);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.lcp1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lcp2 {
+    font-size: 12px;
+}
+
+.lcbtn button {
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.ld3 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(168, 168, 168);
+    font-size: 10px;
+    gap: 1rem;
+    padding: 12px;
+}
+
+.ln {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.ln p {
+    cursor: pointer;
+}
+
+.ld4 button img {
+    filter: invert(1);
+    width: 15px;
+}
+
+.ld4 button {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 20px;
+    padding: 7px 10px 7px 10px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.rtop {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(31, 31, 31, 0.349);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.rleft,
+.rright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px 2rem 10px 2rem;
+}
+
+.rright {
+    gap: 2rem;
+}
+
+.signup {
+    background-color: rgba(0, 0, 0, 0);
+    color: lightgrey;
+    border: none;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.login {
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 3rem;
+    border: none;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.rleft img {
+    filter: invert(1);
+    width: 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.rmid {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+    gap: 1rem;
+}
+
+.play1,
+.play2,
+.play3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.info {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem 1rem 1px 1rem;
+}
+
+.infohead {
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.showall {
+    font-size: 14px;
+    color: lightgray;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.showall:hover,
+.infohead:hover {
+    text-decoration: underline;
+
+}
+
+.pl1cards {
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+}
+
+.pl1c,
+.pl1c3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+}
+
+.pl1c:hover,
+.pl1c3:hover {
+    background-color: rgb(28, 28, 28);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: ease-in-out;
+    transition-duration: 100ms;
+}
+
+.pl1c img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.post {
+    font-size: 13px;
+    font-weight: 400;
+    color: lightgray;
+    padding: 5px;
+    max-width: 100%;
+    max-height: 30px;
+}
+
+.plimg img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.pl3img img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: rgb(167, 167, 167);
+}
+
+.credits {
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+.ls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ls a {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+
+.ls p {
+    color: white;
+}
+
+.ls p:hover {
+    cursor: text;
+}
+
+.ls a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.hr {
+    padding: 2rem 2rem 0rem 2rem;
+    opacity: 0.2;
+}
+
+.handles img{
+    filter: invert(1);
+    width: 30px;
+    margin: 1rem;
+    background-color: rgba(190, 190, 190, 0);    
+}
+.himg{
+    border: 1px solid rgba(179, 179, 179, 0);
+    background-color: rgb(41, 41, 41);
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.himg:hover{
+    cursor: pointer;
+    background-color: rgb(85, 85, 85);
+}
+
+.handles{
+    padding-right: 2rem;
+    padding-top: 14px;
+    display: flex;
+}
+.songbar{
+    height: 70px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+}
+.songbar img{
+    width: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.name-song{
+    font-size: 14px;
+    font-weight: 400;
+}
+.singer{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(132, 129, 129);
+    max-width: 100%;
+    max-height: 30px;
+}
+.songname{
+    margin: 18px 10px 10px 15px;
+}
+.timebar input{
+    width: 40vw;
+}
+.timebar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.fi-sr-play{
+    font-size:15px;
+    color: black;
+}
+.play-icons{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 37px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
